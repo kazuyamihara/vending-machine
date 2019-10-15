@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset='utf-8'>
+   <title>moneyger</title>
+   <style>
+    
+    
+    
+    p{
+     color: blue;
+    }
+    button{
+     width: 200px;
+     height:100px;
+    }
+    h2{
+     background: #03A9F4;
+     border-radius: 6px;
+     color: #ffffff;        
+    }
+
+
+   </style>
+ </head>
+
+ <body>
+  <div style=" width: 600px;
+  height: 500px;
+  text-align: center;
+  background: pink;">
+   <h1>moneyger</h1>
+   <p>以下が現在の金額です<br>金額を入力してください。</p>
+ 
+    <script>
+	    const add =(x,y)=>{
+		  return(x && y)&& parseInt(x) + parseInt(y);
+	    }
+    </script>
+
+    <!--
+    <form oninput="result.value=add(result.value,plus.value)">
+        <input type="number" name="plus" >
+        <input id="input1" type="hidden" size="30" value="">
+        <script type="text/javascript">
+        document.getElementByld('input1').value = result;
+        </script>
+    </form>
+    -->
+     <form oninput="result.value=add(hoge.value,huga.value)">
+	 <input type="number" name="hoge" value="0"> + 
+	 <input type="number" name="huga" value="0"> =
+     <h2>
+     <output name="result" size="20px">
+     </output></h2>
+    </form>
+    <!-- <button>財布<br>
+	<input type ="number" name="example1" value="0">
+   </button>
+    -->
+  </div>
+ </body>
+</html>
